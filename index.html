@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meeting Summary Tool</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Meeting Summary Tool</h1>
+    <p class="subtitle">Paste your meeting notes and get a clean summary</p>
+  </header>
+
+  <main>
+    <section class="input-section">
+      <label for="meeting-notes">Meeting Notes</label>
+      <textarea id="meeting-notes" placeholder="Paste your raw meeting notes here..."></textarea>
+      <button id="summarize-btn">Generate Summary</button>
+    </section>
+
+    <section class="output-section hidden" id="output-section">
+      <h2>Summary</h2>
+      <div id="summary-output"></div>
+
+      <h2>Action Items</h2>
+      <ul id="action-items"></ul>
+
+      <button id="copy-btn">Copy to Clipboard</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Meeting Summary Tool</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
