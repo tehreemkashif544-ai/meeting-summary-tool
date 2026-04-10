@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/summarize.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/summarize", "dest": "/api/summarize.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
