@@ -5,7 +5,7 @@ const outputSection = document.getElementById('output-section');
 const summaryOutput = document.getElementById('summary-output');
 const actionItemsList = document.getElementById('action-items');
 
-const API_URL = '/api/summarize';
+const API_URL = "/api/summarize";
 
 summarizeBtn.addEventListener('click', async () => {
   const notes = notesInput.value.trim();

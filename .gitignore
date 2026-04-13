@@ -48,3 +48,5 @@ Thumbs.db
 # Misc
 *.tgz
 *.tsbuildinfo
+.vercel
+.env*.local
